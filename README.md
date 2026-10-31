@@ -95,7 +95,13 @@ Each LED has its own 220 Ω resistor. The longer leg is the anode (+), which con
 
 ## Possible Improvements
 
+I didn't have the components and the time to implement the rest so feel free to add things
+
 - Add an I2C adapter to the LCD to save pins
 - Store the photo counter in EEPROM so it survives a reset
 - Add a 3D-printed or cardboard enclosure with a window for the flash
 - Use a shift register (74HC595) to drive a row of LEDs
+
+## License
+
+This project is released under the [MIT License](LICENSE). Feel free to use, modify, and share it.
